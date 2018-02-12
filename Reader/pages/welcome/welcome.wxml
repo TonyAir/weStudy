@@ -1,0 +1,7 @@
+<view class="container">
+  <image class='avatar' src='/images/avatar/1.png'></image>
+  <view class='motto'>Hello</view>
+  <view class='journey-container' bindtap='onTap'>
+    <text class="journey">开启小程序的坑爹之旅</text>
+  </view>
+</view>
