@@ -1,7 +1,8 @@
 <view class="container">
   <image class='avatar' src='/images/avatar/1.png'></image>
   <view class='motto'>Hello</view>
-  <view class='journey-container' bindtap='onTap'>
-    <text class="journey">开启小程序的坑爹之旅</text>
+  <!-- tap之前需要加入bind 或者 catch -->
+  <view class='journey-container' bindtap='onContainerTap'>
+    <text class="journey" catchtap='onSubTap'>开启小程序的坑爹之旅</text>
   </view>
 </view>
